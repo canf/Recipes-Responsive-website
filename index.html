@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Media Queries</title>
+    <title>Recipes</title>
   </head>
   <body>
     <!-- navbar -->
@@ -15,16 +17,24 @@
 </button>
 <div class="collapse navbar-collapse " id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
  <li class="nav-item">
-     <a class="nav-link" data-value="about" href="#">About</a>        </li>
-<li class="nav-item">
-    <a class="nav-link " data-value="portfolio"href="#">Portfolio</a>
- </li>
- <li class="nav-item">
-    <a class="nav-link " data-value="blog" href="#">Blog</a>         </li>
-<li class="nav-item">
-   <a class="nav-link " data-value="team" href="#">         Team</a>       </li>
-<li class="nav-item">
- <a class="nav-link " data-value="contact" href="#">Contact</a>       </li>
+     <a class="nav-link" data-value="about" href="#">About</a>
+      </li>
+     <li class="nav-item">
+              <a class="nav-link" data-value="about" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " data-value="recgall" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " data-value="blog" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " data-value="team" href="#">
+              Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " data-value="contact-form" href="#">Contact</a>
+            </li>
 </ul>
 </div></nav>
 
@@ -41,12 +51,13 @@
   </header>
 
 <!--about -->
+<div class="about" id="about">
 <div class="container">
-  <div class="about">
+
   <div class="row">
      <div class="col">
       <img src="images/about.jpeg" class="img-fluid">
-      <span class="text-justify">S.Web Developer</span>
+
      </div>
      <div class="col desc">
 
@@ -65,12 +76,12 @@
 </div>
 
 <!-- gallery -->
-<div class="recgall">
+<div class="recgall" id="recgall">
 <h1 class="text-center">Recipes gallery</h1>
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_5terre.jpg">
-      <img src="img_5terre.jpg" alt="Cinque Terre" width="800" height="400">
+    <a target="_blank" href="images/posts/imag2.jpg">
+      <img src="images/posts/imag2.jpg" alt="Cinque Terre" width="800" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -79,7 +90,7 @@
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/images/portfolio/rec6.jpg">
+    <a target="_blank" href="images/portfolio/rec6.jpg">
       <img src="/home/anko/pro2/images/portfolio/rec6.jpg" alt="Forest" class="img-fluid" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
@@ -88,7 +99,7 @@
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
+    <a target="_blank" href="images/portfolio/rec7.jpg">
       <img src="/home/anko/pro2/images/portfolio/rec7.jpg" width="800" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
@@ -97,7 +108,7 @@
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
+    <a target="_blank" href="images/portfolio/rec3.jpg">
       <img src="/home/anko/pro2/images/portfolio/rec3.jpg" width="800" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
@@ -106,7 +117,7 @@
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
+    <a target="_blank" href="images/portfolio/rec8.jpg">
       <img src="/home/anko/pro2/images/portfolio/rec8.jpg" width="800" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
@@ -115,7 +126,7 @@
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
+    <a target="_blank" href="images/portfolio/rec4.jpg">
       <img src="/home/anko/pro2/images/portfolio/rec4.jpg" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
@@ -124,7 +135,7 @@
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
+    <a target="_blank" href="images/portfolio/rec9.jpg">
       <img src="/home/anko/pro2/images/portfolio/rec9.jpg" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
@@ -132,8 +143,8 @@
 </div>
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="/home/anko/pro2/images/portfolio/rec1.jpg" width="600" height="400">
+    <a target="_blank" href="images/posts/images.jpg">
+      <img src="/home/anko/pro2/images/posts/images.jpg" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -141,7 +152,7 @@
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
+    <a target="_blank" href="images/portfolio/rec4.jpg">
       <img src="/home/anko/pro2/images/portfolio/rec4.jpg" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
@@ -150,19 +161,144 @@
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="/home/anko/pro2/images/portfolio/rec2.jpg" width="600" height="400">
+    <a target="_blank" href="images/posts/polit.jpg">
+      <img src="/home/anko/pro2/images/posts/polit.jpg" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
 </div>
 </div>
-
-
 <div class="clearfix"></div>
 
+<!-- Posts section -->
+<div class="blog" id="blog">
+ <div class="container">
+ <h1 class="text-center">Blog</h1>
+  <div class="row">
+   <div class="col-md-4 col-lg-4 col-sm-12">
+    <div class="card">
+     <div class="card-img">
+      <img src="images/posts/polit.jpg" class="img-fluid">
+     </div>
+
+     <div class="card-body">
+     <h4 class="card-title">Chicken and prosciutto parmigiana</h4>
+      <p class="card-text">
+        Topped with mozzarella and wrapped in prosciutto, this is easy eating at its best.
+      </p>
+     </div>
+     <div class="card-footer">
+      <a href="" class="card-link">Read more</a>
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4 col-lg-4 col-sm-12">
+    <div class="card">
+     <div class="card-img">
+      <img src="images/posts/images.jpg" class="img-fluid">
+     </div>
+
+     <div class="card-body">
+        <h4 class="card-title">Healthier butter chicken</h4>
+      <p class="card-text">
+        This gently spiced butter chicken curry is made with low-fat yogurt instead of cream, making it a lighter alternative to the classic.
+      </p>
+     </div>
+     <div class="card-footer">
+      <a href="" class="card-link">Read more</a>
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4 col-lg-4 col-sm-12">
+    <div class="card">
+     <div class="card-img">
+      <img src="images/posts/imag2.jpg" class="img-fluid">
+     </div>
+
+     <div class="card-body">
+     <h4 class="card-title">3-Ingredient Sausage-Cream Cheese Crescent Bundles</h4>
+      <p class="card-text">
+
+       Each little bite is packed with flavor in these 3-ingredient sausage appetizers.
+      </p>
+     </div>
+     <div class="card-footer">
+      <a href="" class="card-link">Read more</a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+
+<!-- Team section -->
+<div class="team" id="team">
+ <div class="container">
+    <h1 class="text-center">Our Team</h1>
+  <div class="row">
+   <div class="col-lg-3 col-md-3 col-sm-12 item">
+    <img src="images/team1.jpg" class="img-fluid" alt="team">
+    <div class="des">
+      Chris
+     </div>
+    <span class="text-muted">Founder</span>
+   </div>
+   <div class="col-lg-3 col-md-3 col-sm-12 item">
+    <img src="images/team2.jpg" class="img-fluid" alt="team">
+    <div class="des">
+       Sara
+     </div>
+    <span class="text-muted">Full-time mom and wife</span>
+   </div>
+   <div class="col-lg-3 col-md-3 col-sm-12 item">
+    <img src="images/team3.jpg" class="img-fluid" alt="team">
+    <div class="des">
+      Layla
+     </div>
+    <span class="text-muted">Blogger</span>
+   </div>
+   <div class="col-lg-3 col-md-3 col-sm-12 item">
+    <img src="images/team4.jpg" class="img-fluid" alt="team">
+     <div class="des">
+      J.Jirard
+     </div>
+    <span class="text-muted">Blogger</span>
+   </div>
+  </div>
+ </div>
+</div>
+
+<!-- Contact form -->
+<div class="contact-form" id="contact-form">
+ <div class="container">
+  <form>
+   <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <h1>Get in Touch</h1>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 right">
+       <div class="form-group">
+         <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+       </div>
+       <div class="form-group">
+         <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+       </div>
+       <div class="form-group">
+         <textarea class="form-control form-control-lg">
+
+         </textarea>
+       </div>
+       <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+    </div>
+   </div>
+  </form>
+ </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 <script type="text/javascript" src='js/main.js'></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
   </body>
 </html>
